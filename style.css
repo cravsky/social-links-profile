@@ -44,6 +44,9 @@ body {
     align-items: center;
     background-color: var(--grey-800);
     max-width: 24rem;
+    border-radius: 12px;
+    padding: var(--spacing-500);
+    /* margin: var(--spacing-300) */
 }
 
 img {
@@ -51,16 +54,26 @@ img {
     border-radius: 50%;
 }
 
+.name-location {
+    margin-top: var(--spacing-300);
+}
+
 h1 {
     color: var(--white);
+    font-size: 1.5rem;
 }
 
 .name-location p {
     color: var(--green);
+    font-size: 0.875rem;
+    font-weight: 700;
 }
 
-p {
+.bio {
+    margin-top: var(--spacing-300);
+    margin-bottom: var(--spacing-300);
     color: white;
+    font-size: 0.875rem;
 }
 
 .links {
@@ -69,6 +82,14 @@ p {
 }
 
 button {
+    all: unset;
+    font-size: 0.875rem;
+    font-weight: 700;
     background-color: var(--grey-700);
     color: var(--white);
+    width: 19rem;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: var(--spacing-150) 0;
+    margin: var(--spacing-100) 0;
 }
