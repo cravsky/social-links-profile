@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    cursor: url('./assets/pointer.svg'), auto;
 }
 
 .card {
@@ -99,12 +100,13 @@ button {
 button:hover {
     background-color: var(--green);
     color: var(--grey-900);
-    cursor: pointer;            
+    cursor: url('./assets/handcursor.svg'), auto;
 }
 
 button:focus {
-    outline: none; 
+    outline: none;
     box-shadow: 0 0 0 1px var(--green);
+    cursor: url('./assets/handcursor.svg'), auto;
 }
 
 @media (max-width: 768px) {
