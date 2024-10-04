@@ -46,7 +46,7 @@ body {
     max-width: 24rem;
     border-radius: 12px;
     padding: var(--spacing-500);
-    /* margin: var(--spacing-300) */
+    margin: var(--spacing-300);
 }
 
 img {
@@ -92,4 +92,19 @@ button {
     border-radius: 8px;
     padding: var(--spacing-150) 0;
     margin: var(--spacing-100) 0;
+    caret-color: var(--grey-900);
+}
+
+button:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-left: var(--spacing-300);
+        margin-right: var(--spacing-300);
+        max-width: calc(100% - var(--spacing-300));
+    }
 }
