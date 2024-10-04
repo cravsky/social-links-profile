@@ -93,6 +93,7 @@ button {
     padding: var(--spacing-150) 0;
     margin: var(--spacing-100) 0;
     caret-color: var(--grey-900);
+    transition: background-color 1s ease, color 1s ease;
 }
 
 button:hover {
