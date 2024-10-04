@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/mnt/data/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+body {
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: var(--grey-800);
+    max-width: 24rem;
+}
+
+img {
+    max-width: 5.5rem;
+    border-radius: 50%;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.name-location p {
+    color: var(--green);
+}
+
+p {
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: var(--grey-700);
+    color: var(--white);
+}

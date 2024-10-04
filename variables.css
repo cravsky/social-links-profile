@@ -1,8 +1,16 @@
 :root {
-    /* color */
+    /* colors */
     --grey-900: #141414;
     --grey-800: #1f1f1f;
     --grey-700: #333333;
     --white: #ffffff;
-    --green: #c4f82a
+    --green: #c4f82a;
+    
+    /* spacing */
+    --spacing-50: 0.25rem;
+    --spacing-100: 0.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-500: 2.5rem;
 }
